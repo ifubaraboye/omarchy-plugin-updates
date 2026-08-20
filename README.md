@@ -1,6 +1,6 @@
 # oma.plugin-updates
 
-A verified-only update notifier for Omarchy plugins — with a one-click bar widget and desktop notifications that never silently install anything.
+A verified-only update notifier for Omarchy plugins — with a one-click bar widget and desktop notifications that never silently installs anything.
 
 ![Plugin updates bar widget — up to date tooltip](assets/bar-preview.png)
 
