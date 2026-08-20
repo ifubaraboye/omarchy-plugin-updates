@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "oma.plugin-updates",
+  "name": "Omarchy Plugin Updates",
+  "version": "1.0.0",
+  "author": "OmaPlug",
+  "description": "Notifies users when verified Omarchy plugin updates are available. Never auto-installs.",
+  "license": "MIT",
+  "kinds": ["service", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "service/Service.qml",
+    "barWidget": "service/PluginUpdatesWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Plugin Updates",
+    "description": "Check for verified plugin updates — verified-only, manual refresh",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
