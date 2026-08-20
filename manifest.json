@@ -4,7 +4,7 @@
   "name": "Omarchy Plugin Updates",
   "version": "1.0.0",
   "author": "OmaPlug",
-  "description": "Notifies users when verified Omarchy plugin updates are available. Never auto-installs.",
+  "description": "Notifies users when verified Omarchy plugin updates are available via the marketplace catalog (verified releases only — does not poll plugin Git repositories directly). Never auto-installs.",
   "license": "MIT",
   "kinds": ["service", "bar-widget"],
   "keepLoaded": true,
